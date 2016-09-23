@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def gallery
   end
+
+  def test
+  end
+  
 end
