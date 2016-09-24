@@ -9,9 +9,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'pages#home'
 
-  get 'about' => "pages#about"
-  get 'contact' => "pages#contact"
-  get 'gallery' => "pages#gallery"
+  get 'admin' => "pages#admin"
   get 'test' => "pages#test"
   get 'tasks' => "tasks"
 

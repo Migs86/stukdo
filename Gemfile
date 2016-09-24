@@ -59,3 +59,5 @@ gem 'simple_form'
 
 # User autentication gem
 gem 'devise'
+
+gem 'auto_html', '~> 1.6'

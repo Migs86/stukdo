@@ -5,16 +5,10 @@ class PagesController < ApplicationController
     end
   end
 
-  def about
-  end
-
-  def contact
-  end
-
-  def gallery
-  end
-
   def test
+  end
+
+  def admin
   end
 
 end
